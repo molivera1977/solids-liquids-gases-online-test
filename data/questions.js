@@ -1,0 +1,22 @@
+window.QUESTIONS = [
+  { q: "What is matter?", choices: ["Anything that takes up space and has weight", "Something you cannot see or touch", "Only things that are alive"], answer: 0 },
+  { q: "Which state of matter keeps its shape?", choices: ["Liquid", "Solid", "Gas"], answer: 1 },
+  { q: "Which state of matter takes the shape of its container?", choices: ["Solid", "Liquid", "Gas"], answer: 1 },
+  { q: "Which state of matter fills its whole container?", choices: ["Gas", "Solid", "Liquid"], answer: 0 },
+  { q: "Which example shows a solid?", choices: ["Juice", "Air in a balloon", "A pencil"], answer: 2 },
+  { q: "Which example shows a liquid?", choices: ["Water", "Rock", "Steam"], answer: 0 },
+  { q: "Which is a gas?", choices: ["Metal spoon", "Water vapor", "Milk"], answer: 1 },
+  { q: "Air is an example of:", choices: ["Solid", "Liquid", "Gas"], answer: 2 },
+  { q: "Milk in a bottle is a:", choices: ["Solid", "Liquid", "Gas"], answer: 1 },
+  { q: "Ice is water in which state?", choices: ["Liquid", "Gas", "Solid"], answer: 2 },
+  { q: "When you pour water into a cup, it:", choices: ["Keeps its own shape", "Fills the whole room", "Takes the shape of the cup"], answer: 2 },
+  { q: "What happens when you blow up a balloon?", choices: ["Liquid goes inside", "Gas goes inside", "Solid goes inside"], answer: 1 },
+  { q: "Which of the following is NOT matter?", choices: ["Dreams", "Apple", "Juice"], answer: 0 },
+  { q: "Which best describes a solid?", choices: ["Flows and spreads everywhere", "Fills a container completely", "Has its own shape"], answer: 2 },
+  { q: "Which best describes a liquid?", choices: ["Has a fixed shape", "Takes the shape of its container", "Has no weight"], answer: 1 },
+  { q: "Which best describes a gas?", choices: ["Keeps its shape", "Takes the shape of its container", "Spreads to fill its container"], answer: 2 },
+  { q: "What is a container?", choices: ["A place that holds something", "A type of gas", "A kind of solid"], answer: 0 },
+  { q: "A carrot is a solid because it:", choices: ["Fills its container", "Keeps its shape", "Has bubbles in it"], answer: 1 },
+  { q: "A soda bottle has tiny bubbles. The bubbles are:", choices: ["Solid", "Gas", "Liquid"], answer: 1 },
+  { q: "Why isn’t a dream made of matter?", choices: ["It melts easily", "It does not take up space or have weight", "It can be frozen"], answer: 1 }
+];
