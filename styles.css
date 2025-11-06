@@ -17,17 +17,12 @@ header {
   padding: 1.2rem;
   border-radius: 18px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-.cover {
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
 }
 .info-fields {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 input[type="text"], input[type="date"] {
@@ -43,13 +38,19 @@ input[type="text"], input[type="date"] {
   cursor: pointer;
   font-size: 1rem;
 }
-.primary { background: #5ec9f8; color: white; }
+.primary { background: #5ec9f8; color: white; margin-bottom: 1rem; }
 .primary:disabled { background: #a8e4ff; cursor: not-allowed; }
 .submit-btn { background: #fcb86d; color: white; }
 .next-btn { background: #5ec9f8; color: white; }
 .secondary { background: #e9eef7; color: #102a43; }
+.cover-wrap { display: flex; justify-content: center; }
+.cover {
+  width: 75%;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
 .hidden { display: none; }
-.choices { display: grid; gap: 0.75rem; margin-top: 1rem; }
+.choices { display: grid; gap: 0.75rem; margin-top: 1rem; text-align: left; }
 .choice {
   border: 2px solid #e2e8f0;
   border-radius: 14px;
