@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solids, Liquids, and Gases – Online Test</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Solids, Liquids, and Gases – Online Test</h1>
+  </header>
+
+  <main>
+    <section id="start-screen" class="card">
+      <img src="assets/cover.png" alt="Cover" class="cover" />
+      <div class="info-fields">
+        <label>Name: <input type="text" id="studentName" placeholder="Enter your name" /></label>
+        <label>Date: <input type="date" id="testDate" /></label>
+      </div>
+      <button id="startBtn" class="primary" disabled>Start Test</button>
+    </section>
+
+    <section id="quiz-screen" class="hidden card">
+      <div class="progress-wrap"><div id="progressBar"></div></div>
+      <div id="qCounter" class="muted"></div>
+      <h2 id="questionText"></h2>
+      <div id="choices" class="choices"></div>
+      <div class="controls">
+        <button id="submitBtn" class="submit-btn" disabled>Submit</button>
+        <button id="nextBtn" class="next-btn hidden">Next</button>
+      </div>
+    </section>
+
+    <section id="result-screen" class="hidden card">
+      <h2 id="resultTitle"></h2>
+      <p id="scoreLine"></p>
+      <p id="messageLine" class="bigger"></p>
+      <canvas id="confetti"></canvas>
+      <div class="controls">
+        <button id="retryBtn" class="secondary">Try Again</button>
+        <button id="printBtn" class="secondary">Print Results</button>
+      </div>
+      <div id="review" class="review"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Made for classroom use • Static site</small>
+  </footer>
+
+  <script src="data/questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
